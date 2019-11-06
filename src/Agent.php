@@ -366,7 +366,7 @@ class Agent extends Mobile_Detect
      * @param array $all
      * @return array
      */
-    protected static function mergeRules(...$all)
+    protected static function mergeRules($all)
     {
         $merged = [];
 
